@@ -9,7 +9,7 @@ client = discord.Client()
 
 async def stock_updater():
     await client.wait_until_ready()
-    channel = discord.Object(id='509865134907457557')
+    channel = discord.Object(id='stocks-channel-id')
     while not client.is_closed:
         message = ('-' * 55) + '\n'
         for company in stocks.get_companies():

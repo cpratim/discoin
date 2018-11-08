@@ -1,0 +1,12 @@
+{
+    "Stocks": {
+        "CFR": {
+            "name": "Company",
+            "current-stock-price": 0,
+            "daily-high": 0,
+            "daily-low": 0,
+            "all-time-high": 0,
+            "share-holders": {}
+        },
+    }
+}
